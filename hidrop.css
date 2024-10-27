@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    font-family: "Roboto Flex", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0,
+      "wdth" 100,
+      "GRAD" 0,
+      "XOPQ" 96,
+      "XTRA" 468,
+      "YOPQ" 79,
+      "YTAS" 750,
+      "YTDE" -203,
+      "YTFI" 738,
+      "YTLC" 514,
+      "YTUC" 712;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+
+    height: 100vh;
+    width: 100vw;
+    background-color: lightgrey;
+}
+
+.header {
+    background-color: #37A568;
+    min-width: 300px;
+    max-width: 600px;
+    font-weight: 450;
+    font-size: 25px;
+    border-right: #2A4747 solid 2px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header img {
+
+    width: 100px;
+}
+
+.header ul {
+    list-style: none;
+}
+
+.header ul li.item {
+    color: white;
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #2A4747;
+    border-radius: 20px;
+}
+.header ul li.item:hover {
+    color:  #37A568;
+    margin-top: 15px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 20px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.header ul li img {
+    background-color: none;
+    width: 200px;
+}
+
+ion-icon {
+    vertical-align: middle;
+}
+
+.main {
+    font-size: 50px;
+    font-weight: 600;
+    color: rgb(125, 125, 125);
+
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
